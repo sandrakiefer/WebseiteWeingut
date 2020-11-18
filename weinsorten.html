@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weingut Pongratz/OnlineShop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- eigenes Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+    <!-- Navigationsleiste -->
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="startseite.html">
+                <img src="pictures/logo.png" width="150" height="30" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="infos.html">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="weinsorten.html">Online-Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fotos.html">Fotogalerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt/Öffnungszeiten</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Auflistung -->
+    <h4>Unsere verschiedenen Weine</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <a href="#wein1" data-toggle="collapse">
+                <img src="pictures/wein1.png" class="weinflaschen" alt="Weinflasche 1">
+            </a></br>
+            <h5>Chardonnay Blanc</h5>
+            <div id="wein1" class="collapse">
+                <p>weltweit verbreitete Sorte mit einem hohen Qualitätspotenzial und Bekanntheitsgrad</p>
+                <p>Kreuzung aus Gouasis Blanc und Pinot</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kaufen">diesen Wein
+                    kaufen</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#wein2" data-toggle="collapse">
+                <img src="pictures/wein2.png" class="weinflaschen" alt="Weinflasche 2">
+            </a></br>
+            <h5>Cabernet Sauvignon</h5>
+            <div id="wein2" class="collapse">
+                <p>auch außerhalb ihrer Heimat behält die Sorte ihre Eigenart und ihren Charakter</p>
+                <p>Zufallskreuzung aus Cabernet Franc und Sauvignon Blanc</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kaufen">diesen Wein
+                    kaufen</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#wein3" data-toggle="collapse">
+                <img src="pictures/wein3.png" class="weinflaschen" alt="Weinflasche 3">
+            </a></br>
+            <h5>Merlot Noir</h5>
+            <div id="wein3" class="collapse">
+                <p>die Sorte ergibt fruchtige, mollige, körperreiche und vollmundige Weine</p>
+                <p>Kreuzung aus Magdeleine Noire des Charentes und Cabernet Franc</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kaufen">diesen Wein
+                    kaufen</button>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <a href="#wein4" data-toggle="collapse">
+                <img src="pictures/wein4.png" class="weinflaschen" alt="Weinflasche 4">
+            </a></br>
+            <h5>Trebbiano Toscano</h5>
+            <div id="wein4" class="collapse">
+                <p>eine der ältesten und heute die meistangebaute Rebsorte mit großen Erträgen</p>
+                <p>traditionell zusammen mit der weißen Rebsorte Malvasia</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kaufen">diesen Wein
+                    kaufen</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#wein5" data-toggle="collapse">
+                <img src="pictures/wein5.png" class="weinflaschen" alt="Weinflasche 5">
+            </a></br>
+            <h5>Rkaziteli</h5>
+            <div id="wein5" class="collapse">
+                <p>nach internationalem Geschmack werden strohgelbe frische Weine gekeltert</p>
+                <p>die Sorte eignet sich zum Ausbau von Dessertweinen</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kaufen">diesen Wein
+                    kaufen</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#wein6" data-toggle="collapse">
+                <img src="pictures/wein6.png" class="weinflaschen" alt="Weinflasche 6">
+            </a></br>
+            <h5>Carignan Noir</h5>
+            <div id="wein6" class="collapse">
+                <p>der Wein ist dunkel, tanninreich und säurereich, mit wenig Aroma</p>
+                <p>Krezung aus Cabernet Sauvignon und Ruby Cabernet</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#kaufen">diesen Wein
+                    kaufen</button>
+            </div>
+        </div>
+    </div>
+    <!-- kaufen Modal -->
+    <div class="modal fade" id="kaufen" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Unsere Weine kaufen</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-header">
+                    <a>&#9432 Unsere Bestellungen werden per Rechnung abgewickelt</a>
+                </div>
+                <div class="modal-body">
+                    <!-- action="bestelluebersicht.html" -->
+                    <form id="formular">
+                        <div class="form-group">
+                            <label>Vorname, Nachname</label>
+                            <input id="input_name" class="form-control" placeholder="Max, Mustermann">
+                            <div class="invalid-feedback">Bitte geben Sie eine gültigen Namen ein!<br>Beispiel: Max, Mustermann</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Lieferadress</label>
+                            <input id="input_adresse" class="form-control" placeholder="Musterweg 12, 78293 München">
+                            <div class="invalid-feedback">Bitte geben Sie eine gültige Lieferadress ein!<br>Beispiel: Musterweg 12, 78293 München</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Telefonnummer</label>
+                            <input id="input_nummer" class="form-control" placeholder="09826 27818923">
+                            <div class="invalid-feedback">Bitte geben Sie eine gültige Telefonnummer ein!<br>Beispiel: 09826 27818923</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input id="input_email" class="form-control" placeholder="name@example.com">
+                            <div class="invalid-feedback">Bitte geben Sie eine gültige Email ein!<br>Beispiel: name@example.com</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Welche Sorte Wein soll es sein?</label>
+                            <select class="form-control" id="input_sorte">
+                                <option>Chardonnay Blanc</option>
+                                <option>Cabernet Sauvignon</option>
+                                <option>Merlot Noir</option>
+                                <option>Trebbiano Toscano</option>
+                                <option>Rkaziteli</option>
+                                <option>Carignan Noir</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Wie viel Wein möchten sie kaufen?</label>
+                            <select class="form-control" id="input_menge">
+                                <option>1 Flasche</option>
+                                <option>2 Flaschen</option>
+                                <option>3 Flaschen</option>
+                                <option>1 Kiste (6 Flaschen)</option>
+                                <option>2 Kisten (12 Flaschen)</option>
+                            </select>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="input_agb">
+                            <label class="form-check-label" id="input_agb_farbe">hiermit Stimme ich den AGB zu</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">Ich möchte den Newsletter abonnieren</label>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">schließen</button>
+                        <button onclick="validate()" class="btn btn-primary">Kaufvorgang
+                            abschließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="bestelluebersicht.html"><button type="button" class="btn btn-secondary">zur
+                Bestellübersicht</button></a>
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="abgabe">
+                <a class="link" href="#top">&#8593 nach oben &#8593</a>
+                <p>bewertete Abgabe Auszeichnungssprachen von Robin Seeger und Sandra Kiefer</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <a><b>Anbieter:</b></br>
+                        Weingut Kirchknopf</br>
+                        Sebastian Federschreiber</br>
+                        Fliederweg 65</br>
+                        65343 Eltville am Rhein</a>
+                </div>
+                <div class="col-sm-4">
+                    <a><b>Kontakt:</b></br>
+                        Telefon: 089/1234567-8</br>
+                        E-Mail: krichknopf@weingut.de</br>
+                        Website: www.weingutkirchknopf.de</a>
+                </div>
+                <div class="col-sm-4">
+                    <a><b>Bei redaktionellen Inhalten:</b></br>
+                        Verantwortlich nach § 55 Abs.2 RStV</br>
+                        Moritz Schreiberling</br>
+                        Musterstraße 2</br>
+                        80999 München</a>
+                </div>
+            </div>
+        </footer>
+        <script src="bestellungen.js"></script>
+</body>
+
+</html>

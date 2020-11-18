@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weingut Pongratz/OnlineShop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- eigenes Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Bestellübersicht -->
+    <div class="row text-center align-items-center justify-content-md-center">
+        <div class="col-md-8">
+            <div class="border">
+                <h3>Bestellübersicht</h3>
+                <img src="pictures/logo.png" class="logo" alt="logo">
+                <h6>Angaben zu Ihrere Person:</h6>
+                <a>Vor- und Nachname: <a id="output_name"></a></a><br>
+                <a>Lieferadresse: <a id="output_adresse"></a></a><br>
+                <a>Telefonnummer: <a id="output_nummer"></a></a><br>
+                <a>E-mail Adresse: <a id="output_email"></a></a><br><br>
+                <h6>Gekaufte Artikel:</h6>
+                <a>Weinsorte: <a id="output_sorte"></a></a><br>
+                <a>Menge: <a id="output_menge"></a></a><br><br>
+                <a>Sie haben Unseren Allgemeinen Geschäftsbedingungen zugestimmt.</a><br>
+                <a>Somit wird Ihnen schnellstmöglich und verbindlich der Wein per Rechnung versandt.</a><br><br>
+                <a>Wir Danken Ihnen für Ihr Vertrauen!</a><br>
+                <a>Weingut Pongratz</a>
+            </div>
+            <button onclick="safe()" class="btn btn-primary">Datensatz speichern</button>
+            <button onclick="tabelleSichtbar()" class="btn btn-secondary">Tabelle</button>
+            <a href="weinsorten.html"><button class="btn btn-primary">zurück/mehr bestellen</button></a><br><br>
+        </div>
+    </div>
+    <div class="row text-center align-items-center justify-content-md-center">
+        <div class="col-md-8">
+            <input type="text" id="suchleiste" onkeyup="search()" placeholder="Nach dem Namen der Bestellung suchen ...">
+        </div>
+    </div>
+    <div class="row text-center align-items-center justify-content-md-center">
+        <div class="col-md-8">
+                <button onclick="sort()" class="btn btn-secondary btn-sm" id="sortierbutton">nach Bestelldatum sortieren</button><br><br>
+        </div>
+    </div>
+    <div id="tabelle">
+        <div class="row align-items-center justify-content-md-center">
+            <div class="col-md-8">
+                <table class="table table-sm table-responsive" id="verstecken">
+                        <tr>
+                            <th>Name</th>
+                            <th>Adresse</th>
+                            <th>Nummer</th>
+                            <th>Email</th>
+                            <th>Sorte</th>
+                            <th>Menge</th>
+                            <th>Bestelldatum</th>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="darstellung_ls.js"></script>
+</body>
+
+
+</html>

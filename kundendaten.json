@@ -1,0 +1,31 @@
+{
+    "kunde": [
+        {
+            "name": "Sandra, Kiefer",
+            "adresse": "Gertrud-Bäumer-Straße 3, 65189 Wiesbaden",
+            "nummer": "0172 7787829",
+            "email": "sansan2907@web.de",
+            "sorte": "Merlot Noir",
+            "menge": "3 Flaschen",
+            "datum": "8.7.2019, 11:11:11"
+        },
+        {
+            "name": "Oliver, Renth",
+            "adresse": "Schwalbacher Straße 21, 65187 Wiesbaden",
+            "nummer": "0611 823432742",
+            "email": "oliver.renth@student.hs-rm.de",
+            "sorte": "Rkaziteli",
+            "menge": "2 Kisten (12 Flaschen)",
+            "datum": "5.7.2019, 22:08:51"
+        },
+        {
+            "name": "Matteo, Bentivegna",
+            "adresse": "Frankfurter Starße 81, 65989 Wiesbaden",
+            "nummer": "1234 567891",
+            "email": "matteo.bentivegna@student.hs-rm.de",
+            "sorte": "Trebbiano Toscano",
+            "menge": "1 Flasche",
+            "datum": "6.7.2019, 09:45:51"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+/* Variablen */
+$font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$hover: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+$standard-width: 100%;
+$standard-size: 1em;
+
+/* stylesheet */
+body {
+  font-family: $font;
+}
+
+h3{
+  padding-top: $standard-size;
+  font-size: $standard-size * 2;
+}
+
+h4{
+  padding-top: $standard-size;
+  padding-bottom: $standard-size;
+  font-size: $standard-size * 1.5;
+  text-align: center;
+}
+
+h5{
+  padding-top: $standard-size / 2;
+}
+
+h6{
+  font-size: $standard-size*1.5;
+}
+
+img{
+  &.weinflaschen{
+    max-width: $standard-width / 2;
+    margin: auto;
+    &:hover{
+      box-shadow: $hover;
+    }
+  }
+
+  &.info{
+    max-width: $standard-width * 0.9;
+    margin: auto;
+  }
+
+  &.ausz{
+    max-width: $standard-width / 2;
+    margin: auto;
+    padding-bottom: $standard-size;
+  }
+
+  &.hof{
+    max-width: $standard-width * 0.9;
+    margin: auto;
+    padding-top: $standard-size;
+    padding-bottom: $standard-size * 2;
+  }
+
+  &.rebsorten{
+    max-width: $standard-width / 2;
+    margin: auto;
+    border-radius: $standard-width / 2;
+  }
+
+  &.logo{
+    max-width: $standard-width * 0.2;
+    margin: auto;
+    padding-bottom: $standard-size * 2;
+  }
+}
+
+#verstecken{
+  display: none;
+}
+
+#sortierbutton{
+  display: none;
+}
+
+#suchleiste{
+  display: none;
+  background-image: url('pictures/searchicon.png');
+  background-size: 15px;
+  background-position: 10px 6px;
+  background-repeat: no-repeat;
+  width: 58%;
+  font-size: $standard-size;
+  padding-left: 5%;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+a{
+  &.link{
+    color: black;
+  }
+  &:hover{
+    color: rgb(0, 115, 168);
+  }
+}
+
+.btn-secondary:hover{
+  box-shadow: $hover;
+}
+
+.border{
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  margin: $standard-size;
+  padding-bottom: $standard-size * 2;
+}
+
+.thumbnail{
+  padding-bottom: $standard-size;
+}
+
+footer{
+  font-size: $standard-size * 0.8;
+  background-color: rgb(202, 202, 202);
+}
+
+table{
+  font-size: $standard-size * 0.8;
+}
+
+td.star{
+  font-size: $standard-size * 0.5;
+}
+
+.col-sm-4{
+  padding-bottom: $standard-size * 2;
+}
+
+.abgabe{
+  padding-top: $standard-size * 2;
+}
+
+a{
+  &.link{
+    color: black;
+  }
+  &:hover{
+    color: rgb(0, 115, 168);
+  }
+}
+
+.form-row{
+  padding-bottom: $standard-size;
+  margin: $standard-size / 2;
+}
+
+.oeffnungszeiten{
+  text-align: center;
+}
+
+.zwAbstand{
+  padding-bottom: $standard-size;
+}

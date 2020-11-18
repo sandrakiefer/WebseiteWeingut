@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weingut Pongratz/Startseite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- eigenes Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+    <!-- Navigationsleiste -->
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="startseite.html">
+                <img src="pictures/logo.png" width="150" height="30" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="infos.html">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="weinsorten.html">Online-Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fotos.html">Fotogalerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt/Öffnungszeiten</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Bildershow Startseite -->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-intervall="100">
+                    <img src="pictures/weinreben.png" class="d-block w-100" alt="Weinreben">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Landwirtschaftliche Tradition</h5>
+                        <p>Über 200 Jahre Erfahrungen Generation für Generation weitergegeben</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-intervall="100">
+                    <img src="pictures/weintrauben_hand.png" class="d-block w-100" alt="Weintrauben in Hand">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Feinste Auslese per Hand</h5>
+                        <p>Nur das Beste kommt in unseren Wein</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-intervall="100">
+                    <img src="pictures/korken.png" class="d-block w-100" alt="Korken">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Geschmack brauch seine Zeit</h5>
+                        <p>Kontrollierter Reifeprozess in Holzfässern</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- kurzer Infotext -->
+    <div class="container text-center">
+        <h3>Weingut Kirchknopf</h3>
+        <p><em>Tradition und Hingabe vereint!</em></p>
+        <p>Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit
+            ganzem Herzen genieße. Ich bin allein und freue mich meines Lebens in dieser Gegend, die für solche Seelen
+            geschaffen ist wie die meine. Ich bin so glücklich, mein Bester, so ganz in dem Gefühle von ruhigem Dasein
+            versunken, daß meine Kunst darunter leidet. Ich könnte jetzt nicht zeichnen, nicht einen Strich, und bin nie
+            ein größerer Maler gewesen als in diesen Augenblicken.</p>
+    </div>
+    <!-- Weinreben -->
+    <h4>Unsere Rebsorten</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img class="rebsorten" src="pictures/weintrauben_rot1.png" alt="Weintrauben Rot">
+                <p>Aglianico</p>
+                <p>aus Italien und Argentinien</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mehr1">mehr
+                    erfahren</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img class="rebsorten" src="pictures/weintrauben_weiß1.png" alt="Weintrauben Weiß">
+                <p>Araignan Blanc</p>
+                <p>aus Frankreich</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mehr2">mehr
+                    erfahren</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img class="rebsorten" src="pictures/weintrauben_rot2.png" alt="Weintrauben Rot">
+                <p>Alphonse Lavallée</p>
+                <p>aus Spanien und Peru</p>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mehr3">mehr
+                    erfahren</button>
+            </div>
+        </div>
+    </div>
+    <!-- mehr erfahren 1 Modal -->
+    <div class="modal fade" id="mehr1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rebsorte Aglianico</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a>Sie wurde vor über 2500 Jahren von den Griechen als vitis hellenica nach Kampanien eingeführt und
+                        verbreitete sich von dort nach Apulien und in die Basilicata. Sie gilt als eine der besten
+                        Rebsorten Süditaliens und gewinnt mittlerweile auch außerhalb Italiens an Bekanntheit.
+                        Erwähnenswert sind dabei Anpflanzungen in Argentinien und Kalifornien.Rund 13.042 ha Rebfläche
+                        (Erhebung 1990) sind mit Aglianico bepflanzt. Die Rebsorte reift etwas früh, liebt tiefgründige
+                        Böden und bevorzugt vulkanischen Untergrund. Nach einem langen Vegetationszyklus (bis Ende
+                        Oktober/Beginn November) erreicht sie ihr prägnantes Profil. Sie bringt tief rubinrote,
+                        körperreiche und gehaltvolle Weine mit intensiven Tanninen und einer kräftigen Säure hervor.</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mehr erfahren 2 Modal -->
+    <div class="modal fade" id="mehr2" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Rebsorte Araignan Blanc</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a>Oeillade Blanche ist eine autochthone Weißweinsorte der Provence in Frankreich. Während die Sorte
+                        früher im ganzen mediterranen Raum verbreitet war, beschränkt sich ihre jetzige Verbreitung auf
+                        ca. zehn Hektar. Neuanlagen von Rebflächen mit dieser Sorte sind zurzeit nicht bekannt. Die
+                        spätreifende Sorte ist dabei in den Appellationen Châteauneuf-du-Pape und Palette zugelassen. Im
+                        17. und 18. Jahrhundert war sie einer der Verschnittpartner zur Herstellung des Picardan, eines
+                        süßen Weißweins aus dem Languedoc. Die Rebsorten Oeillade Rose und Oeillade Noire sind keine
+                        verwandte Sorten.</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mehr erfahren 3 Modal -->
+    <div class="modal fade" id="mehr3" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rebsorte Alphonse Lavallée</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a>Die Rotweinsorte Alphonse-Lavallée ist eine Neuzüchtung zwischen den Rebsorten Kharistvala
+                        Kolkhuri und Muscat Hamburg. Die frühere Annahme, Alphonse-Lavallée sei eine Kreuzung zwischen
+                        Bellino und Lady Downe´s Seedling konnte nicht bestätigt werden. Sie wurde nach Pierre Alphonse
+                        Martin Lavallée, dem damaligen Präsidenten der Société d´Horticulture de France benannt. Die
+                        Kreuzung erfolgte laut Pierre Galet um das Jahr 1860 in der französischen Stadt Orléans.</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="abgabe">
+            <a class="link" href="#top">&#8593 nach oben &#8593</a>
+            <p>bewertete Abgabe Auszeichnungssprachen von Robin Seeger und Sandra Kiefer</p>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <a><b>Anbieter:</b></br>
+                    Weingut Kirchknopf</br>
+                    Sebastian Federschreiber</br>
+                    Fliederweg 65</br>
+                    65343 Eltville am Rhein</a>
+            </div>
+            <div class="col-sm-4">
+                <a><b>Kontakt:</b></br>
+                    Telefon: 089/1234567-8</br>
+                    E-Mail: krichknopf@weingut.de</br>
+                    Website: www.weingutkirchknopf.de</a>
+            </div>
+            <div class="col-sm-4">
+                <a><b>Bei redaktionellen Inhalten:</b></br>
+                    Verantwortlich nach § 55 Abs.2 RStV</br>
+                    Moritz Schreiberling</br>
+                    Musterstraße 2</br>
+                    80999 München</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

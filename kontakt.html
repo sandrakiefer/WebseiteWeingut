@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weingut Pongratz/Kontakt</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- eigenes Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+    <!-- Navigationsleiste -->
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="startseite.html">
+                <img src="pictures/logo.png" width="150" height="30" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="infos.html">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="weinsorten.html">Online-Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fotos.html">Fotogalerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kontakt.html">Kontakt/Öffnungszeiten</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Kontaktformular -->
+    <h4>Noch irgendwelche Fragen? Nehmen Sie Kontakt zu uns auf!</h4>
+    <div class="form-row justify-content-md-center">
+        <div class="col-md-3">
+            <div class="zwAbstand">
+                <input type="text" class="form-control" placeholder="Name">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="zwAbstand">
+                <input type="text" class="form-control" placeholder="E-Mail">
+            </div>
+        </div>
+    </div>
+    <div class="form-row justify-content-md-center">
+        <div class="col-md-6">
+            <textarea class="form-control" rows="5" placeholder="Fragen und Anregungen"></textarea>
+        </div>
+    </div>
+    <div class="row text-center justify-content-md-center">
+        <div class="col-md-3">
+            <button type="abschicken" class="btn btn-secondary">abschicken</button>
+        </div>
+    </div>
+    <!-- Öffnungszeiten -->
+    <h4>Öffnungszeiten unseres Hofes</h4>
+    <div class="oeffnungszeiten">
+        <h5>Weingut Kirchknopf</h5>
+        <p>Montag bis Samstag von 10 bis 14 Uhr</p>
+        <p>&#10082 FLiederweg 65, 65343 Eltville am Rhein</p>
+        <p>&#9990 089/1234567-8</p>
+        <p>&#9993 krichknopf@weingut.de</p>
+    </div>
+    <div class="row text-center align-items-center justify-content-md-center">
+        <div class="col-md-8">
+            <img src="pictures/hof_innen.png" class="hof" alt="Hof">
+        </div>
+    </div>
+    <!-- Erfahrungsberichte -->
+    <div class="row text-center align-items-center justify-content-md-center">
+        <div class="col-md-8">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Bewertung</th>
+                        <th scope="col">Kommentar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark Selters</td>
+                        <td class="star">&#9733 &#9733 &#9733 &#9733</td>
+                        <td>Grandiose Weine - einfach nur zu empfehlen!</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Wilfried Peter</td>
+                        <td class="star">&#9733 &#9733 &#9733 &#9733 &#9733</td>
+                        <td>Das Herz wahrer Weinkenner schlägt höher.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Karl Otto</td>
+                        <td class="star">&#9733 &#9733 &#9733 &#9733</td>
+                        <td>ein Traum für jeden der Wein mag!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="abgabe">
+            <a class="link" href="#top">&#8593 nach oben &#8593</a>
+            <p>bewertete Abgabe Auszeichnungssprachen von Robin Seeger und Sandra Kiefer</p>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <a><b>Anbieter:</b></br>
+                    Weingut Kirchknopf</br>
+                    Sebastian Federschreiber</br>
+                    Fliederweg 65</br>
+                    65343 Eltville am Rhein</a>
+            </div>
+            <div class="col-sm-4">
+                <a><b>Kontakt:</b></br>
+                    Telefon: 089/1234567-8</br>
+                    E-Mail: krichknopf@weingut.de</br>
+                    Website: www.weingutkirchknopf.de</a>
+            </div>
+            <div class="col-sm-4">
+                <a><b>Bei redaktionellen Inhalten:</b></br>
+                    Verantwortlich nach § 55 Abs.2 RStV</br>
+                    Moritz Schreiberling</br>
+                    Musterstraße 2</br>
+                    80999 München</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
