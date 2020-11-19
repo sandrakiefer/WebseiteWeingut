@@ -12,7 +12,7 @@ Klonen Sie das Projekt in ein beliebiges Verzeichnis von Ihnen und öffnen Sie d
 
 ## Projektbeschreibung
 Ziel war es eine vollständige Webseite zu einem beliebigem Thema zu erstellen. Diese sollte mehrere Themen Seiten beinhalten, ein Menü haben, eine Fotogalerie, eine Tabelle und ein Formular. Für die Gestaltung mit CSS und für ein responsives Verhalten durfte man Bootstrap einbinden. <br>
-Mit Hilfe von JavaScript sollte eine Form-Validierung, eine Speicherung dieser Informationen im localStorage und eine Verwaltung der gesammelten Informationen in einer Tabelle mit Filter-Funktion implementiert werden. 
+Mit Hilfe von JavaScript sollte eine Form-Validierung, eine Speicherung dieser Informationen im localStorage und eine Verwaltung der gesammelten Informationen in einer Tabelle mit Filter-Funktion implementiert werden. Ebenfalls können die Daten aus einer JSON-Datei heraus gelesen werden.
 
 ## Demonstrationsvideo
 Ein kurzes Demonstrationsvideo finden Sie unter **demovideo.mp4** im Repository.
